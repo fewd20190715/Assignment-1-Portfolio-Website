@@ -62,11 +62,11 @@ Here are examples of a simple "About" and "Portfolio" page that fulfill the assi
 
 - Joe, the freelance developer's "about page":
 
-![Joe's About](solution/images/about_me_deliverable.png)
+![Joe's About](starter_code/images/about_me_deliverable.png)
 
 - Joe, the freelance developer's "portfolio page":
 
-![Joe's Portfolio](solution/images/portfolio_deliverable.png)
+![Joe's Portfolio](starter_code/images/portfolio_deliverable.png)
 
 
 <br>
@@ -75,5 +75,5 @@ Here are examples of a simple "About" and "Portfolio" page that fulfill the assi
 
 ### Evaluation / Submission
 
-Students will create a new repository on GitHub called "homework-portfolio" and push their code to this new repository when they are ready to submit. The instructional team will grade each technical requirement and provide a numeric grade on a scale: does not meet expectations (0); meets expectations (1); exceeds expectations (2).  The maximum possible score on this assignment is 16/16. 
+Students will create a new repository on GitHub called "homework-portfolio" and push their code to this new repository when they are ready to submit. The instructional team will grade each technical requirement and provide a numeric grade on a scale: does not meet expectations (0); meets expectations (1); exceeds expectations (2).  The maximum possible score on this assignment is 16/16.
 
