@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="General Assembly Week 1 Assignment Due 7/24/19">
+        <link rel="stylesheet" href="style/style.css">
+        <title>GA FEWD ASSIGNMENT 1</title>
+    </head>
+    <body>
+        <header>
+            <h1>ANDREW CHANG</h1>
+                <ul>
+                    <li><button onClick="location.href='index.html';">ABOUT ME</button></li>
+                    <li><button  onClick="location.href='other-page/portfolio.html';">PORTFOLIO</button></li>
+                </ul>
+            <hr>
+        </header>
+        <div class="aboutMe">
+            <p>Welcome to my page, my name is Andrew. I am an up and coming developer studying at General Assembly. My hobbies include cooking, League of Legends, and Magic the Gathering. My aspiration is to one day develop programs that combines my love for cooking and video games.</p>
+            <img class="self" src="image/Selfie.jpg" alt="A picture of me being a weeb">
+            <hr class="section">
+            <ul>
+                <li><button class="button" onClick="location.href='https://www.linkedin.com/in/andrew-chang-5b995074/';">linkedIn</button></li>
+                <li><button class="button" onClick="email()">eMail</button></li>
+                <li><button class="button" onClick="phone()">phone</button></li>
+            </ul>
+        </div>
+        <script>
+            function email() {
+                let email = "ANDYCHANG.92@GMAIL.COM";
+                alert("My email address is: " + email);
+            }
+            function phone() {
+                alert("347-457-4450")
+            }
+        </script>
+    </body>
+</html>
