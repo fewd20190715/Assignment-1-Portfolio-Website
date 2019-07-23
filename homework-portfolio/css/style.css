@@ -1,0 +1,99 @@
+body {
+    font-family: 'Muli', sans-serif;
+    background-color:#D3D3D3;
+    margin: 3% 7%;
+    text-align: justify;
+    color: #1a1a1a;
+}
+header {
+    border-top: 2px solid rgba(26, 26, 26, 0.7);
+    border-bottom: 2px solid rgba(26, 26, 26, 0.7);
+}
+h1 {
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
+    padding: 5% 0px;
+}
+div {
+    padding: 15px 0 15px 0;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    text-align: center;
+    display: inline-block;
+    margin: 20px 60px;
+    border-radius: 2.5%;
+    background-color: rgba(26, 26, 26, 0.8);
+    padding: 5px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Muli', sans-serif;
+    color: #f2f2f2;
+    font-size: 25px;
+}
+nav ul li:hover {
+    background-color: #f2f2f2;
+}
+nav ul li a:hover {
+    color: #1a1a1a;
+}
+footer {
+    border-top: 1px solid #1a1a1a;
+    margin: 15px 0;
+}
+footer li {
+    display: inline-block;
+    margin: 0 25px;
+}
+.social-media-ul {
+    list-style: none;
+    text-align: center;
+}
+.social-media-a {
+    text-decoration: none;
+
+}
+.hello {
+    font-size: 35px;
+}
+.on-page-a {
+    color: #1a1a1a;
+}
+.on-page-li {
+    background-color: #f2f2f2;
+}
+.portfolio-h3 {
+    padding-bottom: 14px;
+    font-weight: bolder;
+}
+.education-ul {
+    list-style-type: none;
+}
+.float-left1 {
+    float: left;
+    width: 50%;
+}
+.float-left2 {
+    float:left;
+    width: 50%;
+}
+.float-left-div {
+    width: 100%;
+}
+#tamar-img {
+    border-radius: 50%;
+    height: 244px;
+    width: auto;
+}
