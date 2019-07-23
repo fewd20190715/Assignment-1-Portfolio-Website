@@ -1,0 +1,58 @@
+body {
+    background-color:#4B6FB3;
+    font-family: 'Noto Sans', sans-serif
+}
+
+#header {
+   text-transform: uppercase;
+   text-align: center;
+   margin: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+h2{
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+img{
+    width: 30%;
+    height: auto;
+    float: right;
+    border-radius: 10px;
+
+}
+
+#biography{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: right;
+}
+
+h4{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+button{
+    padding: 15px;
+    margin: 20px;
+    background-color:#84AFFF;
+    border-radius: 10px;
+    border-color: black;
+    text-align: center;
+}
+
+#buttons{
+    text-align: center;
+    background-color: #9EC0FF;
+    border-radius: 10px;
+}

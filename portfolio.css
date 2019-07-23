@@ -1,0 +1,51 @@
+body {
+    background-color:#4B6FB3;
+    font-family: 'Noto Sans', sans-serif
+}
+
+#header{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h2{
+    font-size: 20px; 
+    margin: 20px;
+}
+
+.work-experience{
+    background-color:#9EC0FF;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px; 
+}
+
+img{
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+}
+
+li{
+    font-style: italic;
+    /* I can't seem to make any of my font bold. font-weight doesn't seem to work.  */
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.education{
+    margin: 20px;
+}
