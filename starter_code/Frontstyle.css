@@ -1,0 +1,100 @@
+
+h1{
+    color: black;
+    border-style: inherit;
+    border-width: 18px;
+}
+
+#content {
+  position: relative;
+}
+
+#content img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 70px;
+  height:70px;
+}
+
+h2{
+padding: 10px;
+margin: 10px;
+text-align: left;
+}
+h3{
+  text-decoration: underline;
+  color: antiquewhite;
+
+}
+.Explore{
+  background-color: rgb(20, 37, 24);
+  opacity: .8;
+  
+
+}
+
+
+.FirstParagraph {
+  background-color: lightblue;
+  opacity: .6;
+  
+}
+
+
+
+.resume{
+
+background-color: lightsalmon;
+opacity: .68;
+
+
+}
+body { 
+
+color: rgb(22, 22, 22);
+font-size: 18px;
+line-height: 2.4;
+font-family: Helvetica, Arial, sans-serif;
+background:url(images/MountainPic.jpeg)
+ no-repeat center top rgb(134,141,157);
+background-size: cover;
+}
+
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  #content-wrap {
+    padding-bottom: 2.5rem;    
+  }
+  #footer {
+    position: absolute;
+    bottom: 0;
+  
+    width: 100%;
+    height: 2.5rem;          
+  }
+
+
+    .fa {
+        padding: 20px;
+        font-size: 20px;
+        width: 40px;
+        height:20px;
+        text-align: center;
+        float:right;
+      }
+
+      .fa:hover {
+        opacity: 100;
+      }
+      
+      .fa-linkedin{
+        background: #3B5998;
+        color: white;
+        font-size: 20px;
+
+      }
+    

@@ -1,0 +1,38 @@
+
+h1 {
+font-size:15px;
+text-align: justify;
+border-style: inset;
+width: 220px;
+  padding: 20px;
+  margin: 10px;
+  line-height: 2;
+  text-align: center;
+
+
+}
+body { 
+
+    color: rgb(216, 209, 209);
+    font-size: 19.5px;
+    line-height: 1.4;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    background:url(images/clouds-cropland-crops-462023.jpg)
+     no-repeat center top rgb(134,141,157);
+    background-size: cover;
+    }
+
+    #page-container {
+      position: relative;
+      min-height: 100vh;
+    }
+    #content-wrap {
+      padding-bottom: 2.5rem;    
+    }
+    #footer {
+      position: absolute;
+      bottom: 0;
+    color:white;
+      width: 100%;
+      height: 2.5rem;          
+    }
