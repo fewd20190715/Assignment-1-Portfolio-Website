@@ -1,0 +1,23 @@
+body {
+    background: #FFE;
+    margin: 0;
+    padding: 30px;
+    font-family: sans-serif
+  }
+h1 {
+    text-align: center
+    
+}
+h2 {
+    margin-bottom: 18px;
+    font-size: 25px;
+    font-style: italic
+}
+
+img {
+    margin-top: 25px;
+}
+hr {
+    margin-top: 25px; 
+}
+
