@@ -1,0 +1,95 @@
+body {
+    margin-left: 12%;
+    margin-right: 12%;
+    background-color: #ffefdb;
+}
+ul {
+    list-style-type: none;
+    margin: 16px 0px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #045463;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: inline;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 12px 12px;
+    font-size: 24px;
+}
+
+li a:hover {
+    color: white;
+    background-color: #067084;
+}
+
+hr {
+    color: #045463;
+}
+
+h1 {
+    padding-top: 5px;
+    text-align: center;
+}
+
+.experience {
+font-size: 20px;
+}
+
+h4 {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.portfolio {
+    font-size: 16px;
+}
+
+.job {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.location {
+    font-weight: bold;
+}
+
+.relaxr {
+    position: center;
+    padding-left: 25%;
+}
+
+.startup {
+    position: center;
+    padding-left: 25%;
+}
+
+.citipix {
+    position: center;
+    padding-left: 25%;
+}
+
+.education {
+    padding-top: 20px;
+}
+
+.schools ul {
+    border: none;
+    text-align: left;
+}
+
+.schools li{
+    display: block;
+    list-style-type: circle;
+    text-decoration: none;
+    text-align: left;
+}
+
