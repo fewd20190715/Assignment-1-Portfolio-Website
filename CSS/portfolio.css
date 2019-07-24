@@ -1,0 +1,25 @@
+/* Style for the entire page*/
+html{
+    background-color: #F9F9F9;
+    font-family: roboto;
+    
+}
+/* Style for h1 - h3 and body */
+h1 {color: #62706c;
+     text-align: left; font-size: 18px;}
+h2 {color: #62706c;
+        font-family: roboto; text-align: left; font-size: 15px;}
+h3  {color: #62706c;
+    font-family: roboto; text-align: left; font-size: 15px;}
+h4  {color: #62706c;
+        font-family: roboto; text-align: left; font-size: 15px;}
+h5  {color: #62706c;
+            font-family: roboto; text-align: left; font-size: 13px;}
+body {color: #62706c; font-family:roboto; text-align: left; font-size: 18px; width: 500px;
+        margin: auto; padding: 12px;
+        border: 1px solid #62706c;
+    }
+/* Style for bullets*/
+ul.a { 
+        list-style-type: circle;
+      }
