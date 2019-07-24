@@ -1,0 +1,107 @@
+body {
+    background: blanchedalmond;
+    margin: 0;
+    font-family: fantasy, arial, sans-serif;
+}
+header {
+    background: rosybrown;
+    background-size: cover;
+}
+hr{
+    height: 0px;
+    border: none;
+    border-top: 3px solid black;
+}
+.section{
+    height: 0px;
+    border: none;
+    border-top: 1px solid black;
+}
+h1{
+    margin: 0;
+    padding: 20px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+    font-size: 45px;
+}
+ul {
+    text-align: center;
+}
+li {
+    padding: 10px;
+    display: inline;
+}
+.aboutMe{
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+}
+p {
+    max-width: 500px;
+    position: relative;
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.zero{
+    max-width: 750px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 25px;
+}
+.button {
+    width: 70px;
+    height: 20px;
+    position: relative;
+    float: left;
+    margin: 10px;
+}
+
+.unethical{
+    margin: 0;
+    padding: 0;
+}
+
+.self {
+    width: 160px;
+    height: 160px;
+}
+.table {
+    display: flex;
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.resources {
+    flex: 50%
+}
+
+.link {
+    width: 110px;
+    height: 40px;
+    position: relative;
+    float: left;
+    margin: 7px;
+}
+
+h2 {
+    font-size: 35px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.table{
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 25px;
+}
+
+@media (max-width: 500px) {
+    li {
+        display: block;
+    }
+}
