@@ -1,0 +1,17 @@
+body {
+    background: #FFE;
+    margin: 0;
+    padding: 30px;
+    font-family: sans-serif
+}
+span {
+    text-decoration: underline
+}
+h1 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 17px;
+    
+}
