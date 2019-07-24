@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+    <title> The Site Of Chris Abrams</title>
+    <meta charset="UTF-8">
+
+    <div id="content">
+            <img src="images/chrisabramshead.jpeg" class="AbramsHeadshot"/>
+        </div>
+</head>
+
+<body>
+<link rel="stylesheet" href="Frontstyle.css"></a>
+
+
+<h1>Welcome To The Site Of Chris Abrams</h1>
+<div class="FirstParagraph">
+   
+      
+<p1>Currently I, Chris Abrams, am enrolled in a front-end web develpoment class where i 
+    learned how to make this website.
+    My first homework assignment was to create a multipage site that is demonstrating 
+    my skills to my employers,  Relaxr, Startup Matchmaker, and CitiPix.
+    I have instead created a site of a few of my intrests, but also what I have 
+    learned from my front-end web develpment course.
+    Throughout the site you will see buttons at the bottom of the page that will link you all over the place. 
+    Feel free to visit the Contact Me page to leave your question and comments.
+    
+</p1>
+
+</div>
+
+<h2>My Resume</h2>
+<div class="resume">
+<p>
+        Christopher D. Abrams
+        55 Middle Rd. Eastchester, NY 10709	 ∙ 944-449-9449 ∙ Abramsc32@gmail.com 
+
+</br>   -Personal Profile
+        Well-rounded marketer with 2 years experience in social media management, content marketing and branding. 
+        Extensive understanding of the fitness industry. Adept at resolving employee issues in a professional manner. 
+        Excels in independent or collaborative team-based projects. Ability to work flexible schedules when required.
+        Work Experience <span id="dots">...</span><span id="more"> 
+        </br>
+            -CONSTRUCTION INDUSTRY COUNCIL, Tarrytown, NY            	                    12/17-1/19
+            Assist sales and marketing team with writing and preparation of company newsletter.        
+            Provide support in the planning of events and reviewing documents.
+            Respond to all client requests.                                         	
+            Cold called numerous contractors convincing them to become members with the company.
+        </br>  
+            -SPORT FILE INC.  White Plains, NY                                             	11/17-12/17                                                                                                                                             
+            Responsible for maintaining client order data.
+            Provided customer service and responded to inquiries.  
+            Advised in the renovation of the company website.                                                                                                         
+        </br>   
+            -ITOCHU CHEMICALS AMERICA INC., White Plains, NY          	                     10/17-11/17	
+            Assisted with logistical office reorganization.
+            Packed and organized files moved to new location and arranged into new filing cabinets. 
+            Quickly and accurately entered file information into database.
+        </br>   
+            -BRIDGEPORT SOUND TIGERS., Bridgeport, CT                                         8/16-3/17	
+            Reviewed demographics and data to fully understand our target markets
+            Created Social Media campaigns to promote upcoming events 
+            Created arena promotional posters and advertisements 
+            Assisted with the preparation of arena for social events
+            Served as liaison to fans to ensure a positive family experience
+            Served as an ambassador of the team, living its values and contributing to its brand and image.
+        </br> 
+            -TOWN OF EASTCHESTER, Recreation Department	                                    7/16 – 8/16
+            Organized daily sports activities.
+            Managed Camp Counselors and watched over campers.
+            
+        </br> 
+           -Education
+            Bachelor of Science, Major in SPORTS MANAGEMENT, Minor in MARKETING     </span></p>
+<button onclick="myFunction()" id="myBtn">Read more</button>
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+</div>
+
+
+
+<div id="page-container">
+        <div id="content-wrap">
+
+        </div>
+
+        <footer id="footer"></footer>
+       
+         </div>
+
+      <footer>
+          <div class="Explore">
+          
+          <h3>Explore The Site By Clicking Thumbnails Below</h3>
+
+
+          </div>
+            <a href="SportsP.html"><img src="images/sportslogo.jpg" title="Sports Page" width="150" height="140" /></a>
+            <a href="MusicP.html"><img src="images/musiclogo.png" title="Music Page" width="150" height="140" /></a>
+            <a href="ContactP.html"><img src="images/contact-me-logo.gif" title="Contacts Page" width="125" height="70" /></a>
+           
+      </footer>  
+
+      <footer2>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <a href="https://www.linkedin.com/in/chrisabrams722/"> <i class="fa fa-linkedin"></i></a>
+
+
+      </footer2>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
