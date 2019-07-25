@@ -1,0 +1,17 @@
+h1, h3 {
+    text-align: center;
+}
+
+body {
+  
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px 15% 4em 10%;
+    background-color: #F4F4F4;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    font-family: 'Roboto mono', sans-serif;
+ 
+}
+
+
