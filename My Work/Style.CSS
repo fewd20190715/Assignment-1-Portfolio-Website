@@ -1,0 +1,48 @@
+
+
+#Text {
+    width: 75%;
+    margin-bottom: 70px;
+}
+
+#picture {
+    width: 25%;
+    float: right; 
+    margin-left: 15px;
+}
+
+.about-me {
+    width: 750px;
+    padding-left: 25%;
+    padding-bottom: 50px;
+}
+
+.outside-line {
+    width: 70%;
+    border: none;
+    border-bottom: 3px solid black;
+}
+
+h1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li + li:before {
+    content: " | ";
+}
+
+ul {
+    text-align: center;
+}
+
+body {
+    margin-top: 100px;
+    background-color: lightgray;
+}
+
