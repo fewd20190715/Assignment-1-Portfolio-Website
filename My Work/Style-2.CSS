@@ -1,0 +1,49 @@
+#nav li {
+    display: inline-block;
+}
+
+#nav li + li:before {
+    content: " | ";
+}
+
+#nav {
+    text-align: center;
+}
+
+
+.outside-line {
+    border: none;
+    border-bottom: 3px solid black;
+}
+
+.Experience-Desc {
+    width: 60%;
+    padding-left: 20%
+}
+
+.Portfolio-Desc {
+    width: 60%;
+    padding-top: 25px;
+    padding-left: 20%
+}
+
+h1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center
+}
+
+hr {
+    width: 80%;
+}
+
+img {
+    padding: 10px;
+    border: 1px solid black;
+    border-spacing: 20px;
+}
+
+body {
+    padding-top: 35px;
+    background-color: lightgray
+}
